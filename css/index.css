@@ -1,0 +1,374 @@
+*{
+
+}
+
+header{
+  height: 250px;
+  background-color: #91a19d;
+  margin-bottom: -200px;
+}
+
+body{
+    margin: 2em;
+    background-color: #436667;
+}
+
+h1{
+
+    width: 250px;
+    font-size: 18pt;
+    margin-left: 10%;
+    line-height: 2cm;
+    padding-left: 20px;
+
+
+}
+h2{
+
+    width: 250px;
+    font-size: 18pt;
+    margin-left: 10%;
+    line-height: 2cm;
+    padding-left: 20px;
+}
+
+p{
+    word-spacing: 0.2em;
+
+    font-size: 100%;
+
+}
+a{
+    font-size: 12pt;
+    width: auto
+    font-style: oblique;
+    margin: 5px
+}
+.Upheader{
+    width: auto;
+    margin-bottom: -100px;
+
+    background-color: #656565;
+}
+/*Ubicacion de logo */
+.header1{
+  width: auto;
+  margin-left: 200px
+
+}
+.header1 .logo1{
+  position: relative;
+
+  padding: 10px 10px 10px 20px;
+}
+
+.header1 .buscador1{
+    position: relative;
+    top: -120px;
+    bottom: 20px;
+    left: 400px;
+    right: auto;
+    width: 300px;
+    box-sizing: border-box;
+}
+.header1 .buscador1 #buscador2{
+    width: 300px;
+    border: 1.5px solid #000000;
+    padding: 8px 10px;
+    box-sizing: border-box;
+}
+.contacto1{
+
+  position: relative;
+  top: -175px;
+  bottom: 20px;
+  left: 800px;
+  right: auto;
+  width: 300px;
+  height: 80px;
+}
+.contacto1 .persona1 {
+  position: relative;
+  top: 5px;
+  bottom: 5px;
+  left: 5px;
+  width: 75px;
+  height: 60px;
+}
+.contacto1 .persona1 #perimg{
+    width: 75px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.contacto1 .email1 {
+  position: relative;
+  top: -54px;
+  left: 100px;
+  width: 20px;
+  height: 50px;
+  border: 0;
+
+}
+.contacto1 .email1 #emailimg{
+  width: 75px;
+  height: 55px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  border: 0;
+
+}
+.eee{
+  border: 0;
+}
+
+.contacto1 .lenguage1 {
+  position: relative;
+  top: -110px;
+  left: 200px;
+  width: 75px;
+  height: 60px;
+}
+.contacto1 .lenguage1 #lenimg{
+  width: 75px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #c4cfcc;
+  padding: 2em 2em;
+
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 1px;
+  text-decoration: none;
+  font-size: 14px;
+  background-color:#8c938f;
+  width: 8.9%;
+}
+
+.topnav a:hover {
+  background-color: #505354;
+  color: white;
+}
+h3{
+  width: 250px;
+  font-size: 1.5em;
+  margin-left: 40%;
+  line-height: 2cm;
+  padding-left: 20px;
+}
+
+/*
+Seccion Bienvenidos
+*/
+.section1{
+    width: 100%;
+    border: double black;
+    margin-bottom: 15px;
+    /*background:-moz-radial-gradient(center, circle,  #8258FA, #58ACFA);*/
+    background:-webkit-radial-gradient(center, circle, #ababb0, #ababac);
+    height: 600px;
+    position: relative;
+    top: 40px;
+    float: right;
+    display:block;
+}
+.aside1{
+
+  width: 180px;
+  font-size: 1.2em;
+  margin-left: 11%;
+  line-height: 1cm;
+  padding-left: 20px;
+  font-style: italic;
+
+}
+
+.article1{
+  margin-bottom: -300px;
+}
+
+.parafo1{
+  width: 280px;
+  margin-left: 11%;
+  padding-left: 20px;
+  border: solid black;
+}
+.imgbien{
+  position: relative;
+  top: -320px;
+  left: 800px;
+  width: 300px;
+}
+/*
+Seccion Propositos
+*/
+
+.section2{
+  width: 100%;
+  margin-bottom: 15px;
+  border: double black;
+  background:-webkit-radial-gradient(center, circle, #ababb0, #ababac);
+  height: 600px;
+  position: relative;
+  top: 70px;
+  float: right;
+  display:block;
+}
+.article2{
+    margin-bottom: 0px;
+}
+.imgbien2{
+  position: relative;
+  top: -250px;
+  left: 800px;
+  width: 400px;
+}
+.aside3{
+  position: relative;
+  width: 180px;
+  font-size: 1.2em;
+  margin-left: 11%;
+  line-height: 1cm;
+  padding-left: 20px;
+  font-style: italic;
+  top: -200px;
+
+}
+/*Seccion Video*/
+.section3{
+  width: 100%;
+  margin-bottom: 15px;
+  border: double black;
+  background:-webkit-radial-gradient(center, circle, #ababb0, #ababac);
+  height: 700px;
+  position: relative;
+  top: 70px;
+  float: right;
+  display:block;
+}
+.article3{
+
+}
+.section3 .article3 .video1{
+  margin-left: 20%;
+  width: 60%;
+  border: 4px dotted red;
+  padding: 5px;
+
+}
+/*
+Equipo
+*/
+.section4{
+  width: 100%;
+  margin-bottom: 15px;
+  border: double black;
+  background:-webkit-radial-gradient(center, circle, #ababb0, #ababac);
+  height: 500px;
+  position: relative;
+  top: 70px;
+  float: right;
+  display:block;
+}
+.article4{
+
+}
+.titEquipo{
+  font-size: 22pt;
+  margin-left: 45%;
+}
+.imgbien3{
+  border-radius: 50%;
+  position: relative;
+  top: 20px;
+  left: 600px;
+  width: 200px;
+}
+.aside4{
+  border-style: solid;
+  font-size: 16pt;
+  width: 150px;
+  top: 400px;
+  left: 50%;
+  margin-top: 40px;
+  margin-left: 43%;
+}
+
+/*
+Footer1
+*/
+.section5{
+  width: 100%;
+  margin-bottom: 15px;
+  background:-webkit-radial-gradient(center, circle, #ababb0, #ababac);
+  height: 200px;
+  position: relative;
+  top: 125px;
+  float: right;
+  display:block;
+  border: 0;
+}
+.footer1{
+
+  width: 100%;
+  font-size: 12pt;
+  margin-top: 20px;
+  margin-left: 0;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+}
+.imginst{
+  border-radius: 50%;
+  position: relative;
+  top: -20px;
+  left: 600px;
+  width: 75px;
+  height: 75px;
+}
+.imgtwitter{
+  border-radius: 50%;
+  position: relative;
+  top: -8px;
+  left: 650px;
+  width: 100px;
+  height: 100px;
+}
+.emailfoot{
+  width: 100px
+  font-size: 12pt;
+  display: flex;
+  align-items: center;
+
+
+
+}
+.telf{
+  width: 100px
+  font-size: 12pt;
+  display: flex;
+  align-items: center;
+
+
+}
+.autor{
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.copyrigth{
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
