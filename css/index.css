@@ -1,374 +1,311 @@
 *{
-
-}
-
-header{
-  height: 250px;
-  background-color: #91a19d;
-  margin-bottom: -200px;
-}
-
-body{
-    margin: 2em;
-    background-color: #436667;
-}
-
-h1{
-
-    width: 250px;
-    font-size: 18pt;
-    margin-left: 10%;
-    line-height: 2cm;
-    padding-left: 20px;
-
-
-}
-h2{
-
-    width: 250px;
-    font-size: 18pt;
-    margin-left: 10%;
-    line-height: 2cm;
-    padding-left: 20px;
-}
-
-p{
-    word-spacing: 0.2em;
-
-    font-size: 100%;
-
-}
-a{
-    font-size: 12pt;
-    width: auto
-    font-style: oblique;
-    margin: 5px
-}
-.Upheader{
-    width: auto;
-    margin-bottom: -100px;
-
-    background-color: #656565;
-}
-/*Ubicacion de logo */
-.header1{
-  width: auto;
-  margin-left: 200px
-
-}
-.header1 .logo1{
-  position: relative;
-
-  padding: 10px 10px 10px 20px;
-}
-
-.header1 .buscador1{
-    position: relative;
-    top: -120px;
-    bottom: 20px;
-    left: 400px;
-    right: auto;
-    width: 300px;
-    box-sizing: border-box;
-}
-.header1 .buscador1 #buscador2{
-    width: 300px;
-    border: 1.5px solid #000000;
-    padding: 8px 10px;
-    box-sizing: border-box;
-}
-.contacto1{
-
-  position: relative;
-  top: -175px;
-  bottom: 20px;
-  left: 800px;
-  right: auto;
-  width: 300px;
-  height: 80px;
-}
-.contacto1 .persona1 {
-  position: relative;
-  top: 5px;
-  bottom: 5px;
-  left: 5px;
-  width: 75px;
-  height: 60px;
-}
-.contacto1 .persona1 #perimg{
-    width: 75px;
-    height: 60px;
-    border-radius: 50%;
-}
-
-.contacto1 .email1 {
-  position: relative;
-  top: -54px;
-  left: 100px;
-  width: 20px;
-  height: 50px;
-  border: 0;
-
-}
-.contacto1 .email1 #emailimg{
-  width: 75px;
-  height: 55px;
-  background-color: rgb(255, 255, 255);
-  border-radius: 50%;
-  border: 0;
-
-}
-.eee{
-  border: 0;
-}
-
-.contacto1 .lenguage1 {
-  position: relative;
-  top: -110px;
-  left: 200px;
-  width: 75px;
-  height: 60px;
-}
-.contacto1 .lenguage1 #lenimg{
-  width: 75px;
-  height: 60px;
-  border-radius: 50%;
-}
-
-.topnav {
-  overflow: hidden;
-  background-color: #c4cfcc;
-  padding: 2em 2em;
-
-}
-
-.topnav a {
-  float: left;
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 1px;
-  text-decoration: none;
-  font-size: 14px;
-  background-color:#8c938f;
-  width: 8.9%;
-}
-
-.topnav a:hover {
-  background-color: #505354;
+  padding: 0px;
+  margin: 0px;
   color: white;
 }
+body{
+  padding-left: 4px;
+  padding-right: 4px;
+  margin-top: 4px;
+}
+header{
+  height: 150px;
+margin-bottom: 15px;		
+}
+nav{
+overflow: hidden;
+margin-left: 4px;
+margin-right: 4px;
+padding-bottom: 6px;
+font-size: 100%;
+font-family: arial;
+background:-moz-linear-gradient(rgb(240, 126, 19) ,#c8642e);
+background:-webkit-linear-gradient(rgb(240, 126, 19),#c8642e)  ;
+}
+.secciones{
+width: 40%;
+margin-top: 8px;
+  margin-bottom: 20px;
+margin-left: auto;
+margin-right: auto;
+  position: relative;
+  float: left;
+  color: black;	
+}
+.secciones1{
+width: 100%;
+margin-top: 8px;
+  margin-bottom: 20px;
+margin-left: auto;
+margin-right: auto;
+  position: relative;
+float: left;
+text-align: center;
+  color: black;	
+}
+.articulos{
+width: 49%;
+margin-left: 4px;
+margin-top: 4px;
+margin-right: 4px;
+margin-bottom: 4px;
+float: left;
+border: 2px;
+}
+nav a:hover{
+background:-moz-linear-gradient(top,rgb(133, 52, 52),rgb(243, 116, 32));
+background:-webkit-linear-gradient(top,rgb(133, 52, 52),rgb(243, 116, 32))  ;
+color: #ffffff;
+}
+nav a:link {
+text-decoration: none;
+}
+nav a:visited {
+text-decoration:none;
+}
+.menu_h{
+  list-style-type: none;
+margin: 0;
+padding: 0;
+}
+.menu_h a {
+margin: 5px;
+width: 145px;
+text-align: center;
+padding: 6px;
+border: 1px solid white;
+  display: block;
+  background-color: rgb(185, 66, 72);
+  font-size: 12px;
+font-style: italic; 
+color:black;    
+}
+.menu_h li{
+float: left;
+top:4px;
+position: relative;
+color: white;
+}
+a {
+cursor:help;
+top:50px;
+color: black;
+}
+aside{
+width: 59%;
+margin-right: 4px;
+margin-top: 8px;
+  background-color:#c8642e ;
+  float: right;
+font-family: arial;
+  text-align: center;
+  position: relative;
+
+}
+#cabecera{
+float: left;
+margin-bottom: 15px;	
+font-family: arial;
+padding: 10px;
+width: 45%;
+height: 50%;
+text-align: justify;
+font-size: large;
+color:black;
+}
+#logo1{
+position: relative;
+height: 100px;	
+float: left;
+}
+#buscar {
+  margin: 0;
+  padding: 10px;
+  float: none;
+  width: auto;
+  font-size: 100%;
+}
+#buscar {
+  padding: 2px;
+  position: absolute;
+width: 30%;
+left: 35%;
+text-align: center;
+  top: 80px;
+}
+#info{
+float: right;	
+}
+#intro{
+width: 100%;
+margin-top: 15px;
+}
+#caja1{
+float: left;
+width: 250px;
+height: 270px;
+  margin-top: 15px;
+  margin-left: 10%;
+  margin-bottom: 15px;
+  margin-right: 15px;
+text-align: center;
+color: black;
+}
+#caja2{
+float: right;
+width: 250px;
+height: 270px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 10%;
+text-align: center;
+color: black;
+}
+.img{
+border-radius: 75px;
+}
+.botones{
+color: black;
+width: 250px;
+font-size: 15px;
+}
+#iconoF{
+width: 6.5%;
+height:65px;
+position: relative;
+left: 15px;
+margin-top: 10px;
+margin-right: auto;
+text-align: center;
+
+}
+#iconoI{
+position: relative;
+left:6.5%;
+top: -68px;
+width: 6.5%;
+height:65px;
+text-align: center;
+}
+#logP1{
+width: 13%;
+height:130px;
+position: relative;
+margin-right: auto;
+text-align: center;
+top: -120px;
+left: -65px;
+font-size: 25px;
+}
+#informacion{
+position: relative;
+margin-right: auto;
+float: right;
+margin-top: unset;
+top: -260px;
+}
+#imag{
+text-align: center;
+}
+.i1{
+float: left;
+margin-left: 100px;
+margin-right: 15px;
+margin-bottom: 15px;
+margin-top: 15px;
+}
+p{
+color:black;
+font-size: 20px;
+}
+h1{
+color: black;
+font-size: 60px;
+font-family: "Mystery Quest", cursive;
+}
+h2{
+color: black;
+font-size: 40px;
+}
 h3{
-  width: 250px;
-  font-size: 1.5em;
-  margin-left: 40%;
-  line-height: 2cm;
-  padding-left: 20px;
+color: black;
+}
+label{
+text-align: center;
+font-size: 20px;
+color: black;
+font-family: "Mystery Quest", cursive;
+}
+input{
+color: black;
+}
+button{
+font-family: "Mystery Quest", cursive;
+  border-radius: 3px; 
+  color: black; 
+  cursor: grabbing;
+  text-align: center; 
+  border-radius:0%;
+width: 100px;
+height: 25px; 
 }
 
-/*
-Seccion Bienvenidos
-*/
-.section1{
-    width: 100%;
-    border: double black;
-    margin-bottom: 15px;
-    /*background:-moz-radial-gradient(center, circle,  #8258FA, #58ACFA);*/
-    background:-webkit-radial-gradient(center, circle, #ababb0, #ababac);
-    height: 600px;
-    position: relative;
-    top: 40px;
-    float: right;
-    display:block;
+fieldset{
+margin-top: 10px;
+width: 50%;
+border: black solid 3px;
+text-align: center;
+margin-left: 25%;
 }
-.aside1{
-
-  width: 180px;
-  font-size: 1.2em;
-  margin-left: 11%;
-  line-height: 1cm;
-  padding-left: 20px;
-  font-style: italic;
-
+textarea{
+color: black;
+width: 40% ;
 }
-
-.article1{
-  margin-bottom: -300px;
-}
-
-.parafo1{
-  width: 280px;
-  margin-left: 11%;
-  padding-left: 20px;
-  border: solid black;
-}
-.imgbien{
-  position: relative;
-  top: -320px;
-  left: 800px;
-  width: 300px;
-}
-/*
-Seccion Propositos
-*/
-
-.section2{
-  width: 100%;
-  margin-bottom: 15px;
-  border: double black;
-  background:-webkit-radial-gradient(center, circle, #ababb0, #ababac);
-  height: 600px;
-  position: relative;
-  top: 70px;
-  float: right;
-  display:block;
-}
-.article2{
-    margin-bottom: 0px;
-}
-.imgbien2{
-  position: relative;
-  top: -250px;
-  left: 800px;
-  width: 400px;
-}
-.aside3{
-  position: relative;
-  width: 180px;
-  font-size: 1.2em;
-  margin-left: 11%;
-  line-height: 1cm;
-  padding-left: 20px;
-  font-style: italic;
-  top: -200px;
-
-}
-/*Seccion Video*/
-.section3{
-  width: 100%;
-  margin-bottom: 15px;
-  border: double black;
-  background:-webkit-radial-gradient(center, circle, #ababb0, #ababac);
-  height: 700px;
-  position: relative;
-  top: 70px;
-  float: right;
-  display:block;
-}
-.article3{
-
-}
-.section3 .article3 .video1{
-  margin-left: 20%;
-  width: 60%;
-  border: 4px dotted red;
-  padding: 5px;
-
-}
-/*
-Equipo
-*/
-.section4{
-  width: 100%;
-  margin-bottom: 15px;
-  border: double black;
-  background:-webkit-radial-gradient(center, circle, #ababb0, #ababac);
-  height: 500px;
-  position: relative;
-  top: 70px;
-  float: right;
-  display:block;
-}
-.article4{
-
-}
-.titEquipo{
-  font-size: 22pt;
-  margin-left: 45%;
-}
-.imgbien3{
-  border-radius: 50%;
-  position: relative;
-  top: 20px;
-  left: 600px;
-  width: 200px;
-}
-.aside4{
-  border-style: solid;
-  font-size: 16pt;
-  width: 150px;
-  top: 400px;
-  left: 50%;
-  margin-top: 40px;
-  margin-left: 43%;
-}
-
-/*
-Footer1
-*/
-.section5{
-  width: 100%;
-  margin-bottom: 15px;
-  background:-webkit-radial-gradient(center, circle, #ababb0, #ababac);
-  height: 200px;
-  position: relative;
-  top: 125px;
-  float: right;
-  display:block;
-  border: 0;
+footer{
+width: 100%;
+border: #313c4a solid 2px;
+float: left;
+margin-bottom: 4px;
 }
 .footer1{
-
-  width: 100%;
-  font-size: 12pt;
-  margin-top: 20px;
-  margin-left: 0;
-  margin-bottom: 15px;
-  display: flex;
-  justify-content: center;
+float: left;
+margin-top: 5px;
+margin-left: 15px;
+margin-bottom: 5px;
+width: 20%;
+border: solid 3px;
 }
-.imginst{
-  border-radius: 50%;
-  position: relative;
-  top: -20px;
-  left: 600px;
-  width: 75px;
-  height: 75px;
+.footer2{
+margin-top: 5px;
+margin-left: 25px;
+margin-bottom: 5px;
+width: 200px;
+border: solid 3px;
 }
-.imgtwitter{
-  border-radius: 50%;
-  position: relative;
-  top: -8px;
-  left: 650px;
-  width: 100px;
-  height: 100px;
+.info1{
+float: left;
+margin-top: 5px;
+margin-bottom: 5px;
+margin-left: 55px;
+margin-right: 5px;
 }
-.emailfoot{
-  width: 100px
-  font-size: 12pt;
-  display: flex;
-  align-items: center;
-
-
-
+.info1 p{
+font-size: 15px;
 }
-.telf{
-  width: 100px
-  font-size: 12pt;
-  display: flex;
-  align-items: center;
 
-
+#caja3{
+float: left;
+margin-top: 5px;
+margin-bottom: 5px;
+margin-left: 5px;
+margin-right: 5px;
+background-color: black;
 }
-.autor{
-  width: 300px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.copyrigth{
-  width: 300px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+#caja4{
+float: right;
+margin-top: 5px;
+margin-bottom: 5px;
+margin-left: 5px;
+margin-right: 5px;
+background-color: black;
 }
