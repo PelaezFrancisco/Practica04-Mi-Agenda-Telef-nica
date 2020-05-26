@@ -1,20 +1,81 @@
 <!DOCTYPE html>
 <html>
 <head>
- <meta charset="UTF-8">
- <title>Iniciar sesión</title>
+    <title>Iniciar Sesion</title>
+    <meta charset="utf-8"/>
+    <meta name="keywords" content="Mi Agenda Telefonica" />
+    <link rel="stylesheet" type="text/css" href="../../css/login.css">
 </head>
 <body>
- <form id="formulario01" method="POST" action="../controladores/login.php">
- <label for="correo">Correo electrónico </label>
- <input type="text" id="correo" name="correo" value="" placeholder="Ingrese el correo ..."/>
- <br>
- <label for="nombres">Constraseña (*)</label>
- <input type="password" id="contrasena" name="contrasena" value="" placeholder="Ingrese su
-contraseña ..."/>
- <br>
- <input type="submit" id="login" name="login" value="Iniciar Sesión" />
+    <header >
+        <div class="encabezado">  
+            <div id="logo1">
+                <img src="../../imagenes/logoF.jpg"  width="250" height="150" alt="Imagen de Portada" >
+            </div>
+            <div id="buscar">
+                <form method="get" action="https://www.google.com/search">
+                <input title="busqueda" name="q" type="text" class="floatright" id="cajabusqueda" value="" size="31" 
+                 maxlength="255">
+                <input name="botonbusq" type="submit" class="floatright" id="botonbusqueda" value="Buscar">
+                </form> 	
+            </div>  
+            <div id="info">
+                <a href="tel:+5930998801982"><img src="../../imagenes/contacto.png"  width="50" height="50" alt="Correo electronico" ></a>
+                <a href="mailto:dtixi@est.ups.edu.ec"><img src="../../imagenes/sobre.jpg"  width="50" height="50" alt="Contactos Telefonico" ></a>
+                <button><a href="../../index.html" target="_blank">Pagina Principal</a></button>
+            </div>
+        </div>  
+    </header>
+    
+    <section class="secciones">
+    <hr><hr><br>
+    <form id="formulario01" method="POST" action="../controladores/login.php">
+        <h2>Iniciar Sesion </h2><br>
+        <label >Email: </label> <br>
+        <input type="text" id="correo" name="correo" value="" placeholder="Ingrese el correo ..."/>
+        <br><br>
+        <label >Constraseña: </label> <br>
+        <input type="password" id="contrasena" name="contrasena" value="" placeholder="Ingrese su contraseña ..."/>
+        <br><br>
+        <input type="submit" id="login" name="login" value="Iniciar Sesión" />
+        <br><br>
+        <div>
+            <p>No tienes acceso?<a href="../vista/crear_usuario.html">Registrarse aqui </a></p> 
+        </div>
+    </form>
+    </section>
+    <footer>
+        <hr><hr>
+        <div class="footer1">
+            <div id="caja3">
+                <a href="https://www.wizardingworld.com/"><img src="../../imagenes/face.jpg"  width="50" height="50" alt="Imagen de Portada" ></a>
+            </div>
+            <div id="caja4">        
+                <a href="https://www.instagram.com/harrypotterfilm/"><img src="../../imagenes/insta.jpg"  width="50" height="50" alt="Imagen de Portada" ></a>
+            </div>
+            <div class="footer2">
+                <img src="../../imagenes/logoF.jpg"  width="190" height="100" alt="Imagen de Portada">
+            </div>
+        </div>
 
- </form>
+        <div class="info1">
+            <h3>Informaci&oacute;n</h3>
+            <p>&#8226; Nombre: Diana Fernanda Tixi Uyaguari </p><br>
+            <p>&#8226; Universidad Polit&eacute;cnica Salesiana </p><br>
+            <p>&#8226; Email: <a href="mailto:dtixi@est.ups.edu.ec">dtixi@est.ups.edu.ec</a></p><br>
+            <p>&#8226; Call: <a href="tel:+5930998801982">(593) 0998801982</a></p><br>
+            <p>&#169;Todos los derechos reservados</p>
+        </div>
 
+        <div class="info2">
+            <h3>Informaci&oacute;n</h3>
+            <p>&#8226; Nombre: Juan Francisco Pelaez Becerra </p><br>
+            <p>&#8226; Universidad Polit&eacute;cnica Salesiana </p><br>
+            <p>&#8226; Email: <a href="mailto:@est.ups.edu.ec">dtixi@est.ups.edu.ec</a></p><br>
+            <p>&#8226; Call: <a href="tel:+5930998801982">(593) 0998801982</a></p><br>
+            <p>&#169;Todos los derechos reservados</p>
+        </div>
+
+    </footer>
 </body>
+</html>

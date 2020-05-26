@@ -286,12 +286,23 @@ border: solid 3px;
 float: left;
 margin-top: 5px;
 margin-bottom: 5px;
-margin-left: 55px;
+margin-left: 25%;
 margin-right: 5px;
 }
+.info2{
+  float: right;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 55px;
+  margin-right: 5px;
+}
+
 .info1 p{
 font-size: 15px;
 }
+.info2 p{
+  font-size: 15px;
+  }
 
 #caja3{
 float: left;
