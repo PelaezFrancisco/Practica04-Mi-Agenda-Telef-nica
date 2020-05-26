@@ -1,6 +1,6 @@
 *{
-    padding: 4px;
-    margin: 4px;
+    padding: 0px;
+    margin: 0px;
     color: white;
 }
 body{
@@ -57,7 +57,8 @@ float: left;
     margin-bottom: 15px;
     color: black;
     text-align: center;
-    width: 40%;
+    width: 50%;
+    border: black solid 2px;
 }
 label{
     /*font-family: "Mystery Quest", cursive;*/
@@ -70,7 +71,51 @@ label{
     color: black;
     text-align: justify;
 }
-
+#cedula {
+    width: 400px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    color: black;
+    border-radius: 5px;
+}
+#nombres {
+    width: 400px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    color: black;
+    border-radius: 5px;
+}
+#apellidos {
+    width: 400px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    color: black;
+    border-radius: 5px;
+}
+#direccion {
+    width: 400px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    color: black;
+    border-radius: 5px;
+}
+#fechaNacimiento {
+    width: 400px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    color: black;
+    border-radius: 5px;
+}
 #correo {
     width: 400px;
     height: 30px;
@@ -144,35 +189,34 @@ footer{
     margin-left: 25%;
     margin-right: 5px;
     }
-    .info2{
-      float: right;
-      margin-top: 5px;
-      margin-bottom: 5px;
-      margin-left: 55px;
-      margin-right: 5px;
-    }
+.info2{
+    float: right;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 55px;
+    margin-right: 5px;
+}
     
-    .info1 p{
+.info1 p{
     font-size: 15px;
-    }
-    .info2 p{
-      font-size: 15px;
-      }
+}
+.info2 p{
+    font-size: 15px;
+}
     
-    #caja3{
+#caja3{
     float: left;
     margin-top: 5px;
     margin-bottom: 5px;
     margin-left: 5px;
     margin-right: 5px;
     background-color: black;
-    }
-    #caja4{
+}
+#caja4{
     float: right;
     margin-top: 5px;
     margin-bottom: 5px;
     margin-left: 5px;
     margin-right: 5px;
     background-color: black;
-    }
-    
+}
