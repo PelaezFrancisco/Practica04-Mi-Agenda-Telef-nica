@@ -3,7 +3,7 @@
 <head>
 
     <meta charset="UTF-8">
-    <title>Modificar Usuarios</title>
+    <title>Agregar Telefonos Usuarios</title>
     <meta name="keywords" content="Mi Agenda Telefonica" />
     <link rel="stylesheet" type="text/css" href="../../../css/listar.css">
 </head>
@@ -30,26 +30,23 @@
     <nav>
             <ul class="menu_h">
                 <li><a href="agregar.php" target="_blank">Agregar Usuarios</a></li>
-                <li><a href="listar.php" target="_blank">Listar Usuarios</a></li>
+                <li><a href="modificarU.php" target="_blank">Modificar Usuarios</a></li>
                 <li><a href="eliminarU.php" target="_blank">Eliminar Usuarios</a></li>
-                <li><a href="agregarTel.php" target="_blank">Add Telefonos</a></li>
+                <li><a href="" target="_blank">Buscar Usuario</a></li>
                 <li><a href="" target="_blank">Cambiar Contraseña</a></li>
             </ul>
-            <br>
     </nav>
-    
+
     <table style="width:100%">
-    <br> <hr>
-    <br>
-    <th colspan="7">Modificar Usuarios</th>
+    <br><hr><br>
     <tr>
-    <th>Cedula</th>
+    <th></th>
     <th>Nombres</th>
     <th>Apellidos</th>
     <th>Dirección</th>
     <th>Correo</th>
     <th>Fecha Nacimiento</th>
-    <th>Modificar</th>
+    <th>Agregar Telefono</th>
     </tr>
     <?php
 
@@ -66,7 +63,7 @@
         echo " <td>" . $row['usu_direccion'] . "</td>";
         echo " <td>" . $row['usu_correo'] . "</td>";
         echo " <td>" . $row['usu_fecha_nacimiento'] . "</td>";
-        echo " <td> <a href='modificar.php?codigo=" . $row['usu_codigo'] . "'>Modificar</a> </td>";echo "</tr>";
+        echo " <td> <a href='agregarT.php?codigo=" . $row['usu_codigo'] . "'>Add Telefono</a> </td>";echo "</tr>";
  
         echo "</tr>";
         

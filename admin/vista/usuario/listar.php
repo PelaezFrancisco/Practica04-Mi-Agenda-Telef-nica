@@ -32,7 +32,7 @@
                 <li><a href="agregar.php" target="_blank">Agregar Usuarios</a></li>
                 <li><a href="modificarU.php" target="_blank">Modificar Usuarios</a></li>
                 <li><a href="eliminarU.php" target="_blank">Eliminar Usuarios</a></li>
-                <li><a href="" target="_blank">Buscar Usuario</a></li>
+                <li><a href="agregarTel.php" target="_blank">AgregarTelefono</a></li>
                 <li><a href="" target="_blank">Cambiar Contraseña</a></li>
             </ul>
     </nav>

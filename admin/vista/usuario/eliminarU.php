@@ -30,9 +30,9 @@
     <nav>
             <ul class="menu_h">
                 <li><a href="agregar.php" target="_blank">Agregar Usuarios</a></li>
-                <li><a href="" target="_blank">Modificar Usuarios</a></li>
+                <li><a href="modificarU.php" target="_blank">Modificar Usuarios</a></li>
                 <li><a href="listar.php" target="_blank">Listar Usuarios</a></li>
-                <li><a href="eliminarU.php" target="_blank">Eliminar Usuarios</a></li>
+                <li><a href="agregarTel.php" target="_blank">Add Telefono Usuarios</a></li>
                 <li><a href="" target="_blank">Cambiar Contraseña</a></li>
             </ul>
     </nav>
@@ -41,6 +41,7 @@
     <br>
     <hr>
     <br>
+        <h2>Eliminar Usuario</h2><br>
         <label>Ingrese la cedula:  </label> &nbsp; &nbsp; 
         <input type="text" id="cedula" name="cedula" value=""> <br>
         <br>

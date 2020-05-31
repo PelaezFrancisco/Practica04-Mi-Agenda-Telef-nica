@@ -1,0 +1,283 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+body{
+    padding-left: 4px;
+    padding-right: 4px;
+    margin-top: 4px;
+}
+header{
+    height: 150px;
+    margin-bottom: 15px;		
+}
+.secciones{
+    width: 40%;
+    margin-top: 8px;
+      margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+      position: relative;
+      float: left;
+      color: black;	
+}
+nav{
+    overflow: hidden;
+    margin-left: 4px;
+    margin-right: 4px;
+    padding-bottom: 6px;
+    font-size: 100%;
+    font-family: arial;
+    background:-moz-linear-gradient(rgb(240, 126, 19) ,#c8642e);
+    background:-webkit-linear-gradient(rgb(240, 126, 19),#c8642e)  ;
+}
+nav a:hover{
+    background:-moz-linear-gradient(top,rgb(133, 52, 52),rgb(243, 116, 32));
+    background:-webkit-linear-gradient(top,rgb(133, 52, 52),rgb(243, 116, 32))  ;
+    color: #ffffff;
+}
+nav a:link {
+    text-decoration: none;
+}
+nav a:visited {
+    text-decoration:none;
+}
+.menu_h{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu_h a {
+    margin: 5px;
+    width: 350px;
+    text-align: center;
+    padding: 6px;
+    border: 1px solid white;
+    display: block;
+    background-color: rgb(185, 66, 72);
+    font-size: 12px;
+    font-style: italic; 
+    color:black;    
+}
+.menu_h li{
+    float: left;
+    top:4px;
+    position: relative;
+    color: white;
+}
+a {
+    cursor:help;
+    top:50px;
+    color: black;
+}
+#logo1{
+position: relative;	
+float: left;
+}
+#buscar {
+    margin: 0;
+    padding: 10px;
+    float: left;
+    width: auto;
+    font-size: 100%;
+    margin-top: 40px;
+}
+#buscar {
+    padding: 2px;
+    float: left;
+    margin-left: 55px;
+    position: absolute;
+    width: 30%;
+    left: 35%;
+    text-align: center;
+}
+#info{
+    margin-top: 30px;
+    float: right;	
+}
+.secciones{
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    float: left;
+    text-align: center;
+}
+#formulario01{
+    float: left;
+    margin-top: 15px;
+    margin-left: 27%;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    color: black;
+    text-align: center;
+    width: 50%;
+    border: black solid 2px;
+}
+label{
+    /*font-family: "Mystery Quest", cursive;*/
+    font-size: larger;
+    width: 200px;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    color: black;
+    text-align: justify;
+}
+#cedula {
+    width: 400px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    color: black;
+    border-radius: 5px;
+}
+#nombres {
+    width: 400px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    color: black;
+    border-radius: 5px;
+}
+#apellidos {
+    width: 400px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    color: black;
+    border-radius: 5px;
+}
+#direccion {
+    width: 400px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    color: black;
+    border-radius: 5px;
+}
+#fechaNacimiento {
+    width: 400px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    color: black;
+    border-radius: 5px;
+}
+#correo {
+    width: 400px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    color: black;
+    border-radius: 5px;
+}
+#contrasena {
+    width: 400px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    color: black;
+    border-radius: 5px;
+}
+button{
+    color: black;
+}
+
+a{
+    color: black;
+}
+#login{
+    width: 100px;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+
+}
+input{
+    color: black;
+}
+p{
+    color: black;
+    text-align: center;
+}
+h2{
+    color: black;
+    text-align: center;
+}
+.mensaje{
+    text-align: justify;
+    font-size: 10px;
+    
+}
+footer{
+    width: 100%;
+    float: left;
+    margin-bottom: 4px;
+    }
+    .footer1{
+    float: left;
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    width: 20%;
+    border: solid 3px;
+    }
+    .footer2{
+    margin-top: 5px;
+    margin-left: 25px;
+    margin-bottom: 5px;
+    width: 200px;
+    border: solid 3px;
+    }
+    .info1{
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 25%;
+    margin-right: 5px;
+    }
+.info2{
+    float: right;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 55px;
+    margin-right: 5px;
+}
+    
+.info1 p{
+    font-size: 15px;
+}
+.info2 p{
+    font-size: 15px;
+}
+    
+#caja3{
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: black;
+}
+#caja4{
+    float: right;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: black;
+}

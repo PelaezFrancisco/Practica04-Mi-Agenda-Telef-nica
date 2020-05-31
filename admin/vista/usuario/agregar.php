@@ -24,7 +24,7 @@
             <div id="info">
                 <a href="tel:+5930998801982"><img src="../../../imagenes/contacto.png"  width="50" height="50" alt="Correo electronico" ></a>
                 <a href="mailto:dtixi@est.ups.edu.ec"><img src="../../../imagenes/sobre.jpg"  width="50" height="50" alt="Contactos Telefonico" ></a>
-                <button><a href="../../index.html" >Iniciar Sesion</a></button>
+                <button><a href="indexA.html" >Iniciar Sesion</a></button>
             </div>
         </div>  
     </header>

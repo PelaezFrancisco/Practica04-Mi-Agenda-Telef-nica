@@ -70,13 +70,13 @@ padding: 0;
 }
 .menu_h a {
 margin: 5px;
-width: 145px;
+width: 500px;
 text-align: center;
 padding: 6px;
 border: 1px solid white;
-  display: block;
-  background-color: rgb(185, 66, 72);
-  font-size: 12px;
+display: block;
+background-color: rgb(185, 66, 72);
+font-size: 12px;
 font-style: italic; 
 color:black;    
 }

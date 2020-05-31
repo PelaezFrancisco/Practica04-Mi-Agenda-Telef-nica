@@ -108,7 +108,7 @@ td, th {
 }
 input{
     color: black;
-    width: 200px;
+    width: 150px;
     height: 20px;
 }
 label{
@@ -119,4 +119,8 @@ label{
 #eliminar{
     color: black;
     width: 100px;
+}
+h2{
+    text-align: center;
+    color: black;
 }

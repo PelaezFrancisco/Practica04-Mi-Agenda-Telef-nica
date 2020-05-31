@@ -37,7 +37,6 @@
             </ul>
     </nav>
     
-
  <?php
  $codigo = $_GET["codigo"];
  $sql = "SELECT * FROM usuarios where usu_codigo=$codigo";
@@ -50,29 +49,20 @@
  ?>
 <section class="secciones">
 <br><hr>
- <form id="formulario01" method="POST"  action="../../controladores/usuario/modificar.php">
- <h2> Modificar usuario </h2>
+ <form id="formulario01" method="POST"  action="../../controladores/usuario/agregarTel.php">
+ <h2> Agregar Telefono a Usuarios </h2>
  <br>
  <input type="hidden" id="codigo" name="codigo"  value="<?php echo $codigo ?>" />
- <label for="cedula">Cedula: </label><br>
- <input type="text" id="cedula" name="cedula" onkeyup="validarCedula(this)" value="<?php echo $row["usu_cedula"]; ?>" required placeholder="Ingrese la cedula ..." />
- <br>
- <label for="nombres">Nombres:</label><br>
- <input type="text" id="nombres" name="nombres" value="<?php echo $row["usu_nombres"] ;?>" required placeholder="Ingrese los dos nombres ..." onkeyup="validarLetras(this)"/>
- <br>
- <label for="apellidos">Apelidos:</label><br>
- <input type="text" id="apellidos" name="apellidos" value="<?php echo $row["usu_apellidos"];?>" required placeholder="Ingrese los dos apellidos ..." onkeyup="validarLetras(this)"/>
- <br>
- <label for="direccion">Dirección:</label><br>
- <input type="text" id="direccion" name="direccion" value="<?php echo $row["usu_direccion"];?>" required placeholder="Ingrese la dirección ..." />
- <br>
- <label for="fecha">Fecha Nacimiento:</label><br>
- <input type="date" id="fechaNacimiento" name="fechaNacimiento" value="<?php echo$row["usu_fecha_nacimiento"]; ?>" required placeholder="Ingrese la fecha de nacimiento ..." />
- <br>
- <label for="correo">Correo electrónico:</label><br>
- <input type="email" id="correo" name="correo" value="<?php echo $row["usu_correo"]; ?>"required placeholder="Ingrese el correo electrónico ..." onkeyup="validarEmail(this)"/>
- <br>
- <input type="submit" id="modificar" name="modificar" value="Modificar" />
+ <label for="num">Numero: </label><br><br>
+ <input type="text" id="num" name="num" value="" required placeholder="Ingrese su numero..." />
+ <br><br>
+ <label for="tipo">Tipo:</label><br><br>
+ <input type="text" id="tipo" name="tipo" value="" required placeholder="Ingrese el tipo de celular ..." />
+ <br><br>
+ <label for="operador">Operador:</label><br><br>
+ <input type="text" id="operador" name="operador" value=" " required placeholder="Ingrese la operadora ..."/>
+ <br><br>
+ <input type="submit" id="agregar" name="agregar" value="Agregar" />
  <input type="reset" id="cancelar" name="cancelar" value="Cancelar" />
  </form>
  </section >
