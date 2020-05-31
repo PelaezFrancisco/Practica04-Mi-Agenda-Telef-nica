@@ -3,7 +3,7 @@
 <head>
 
     <meta charset="UTF-8">
-    <title>Listar Usuarios</title>
+    <title>Modificar Usuarios</title>
     <meta name="keywords" content="Mi Agenda Telefonica" />
     <link rel="stylesheet" type="text/css" href="../../../css/listar.css">
 </head>
@@ -30,9 +30,9 @@
     <nav>
             <ul class="menu_h">
                 <li><a href="agregar.php" target="_blank">Agregar Usuarios</a></li>
-                <li><a href="modificarU.php" target="_blank">Modificar Usuarios</a></li>
+                <li><a href="" target="_blank">Modificar Usuarios</a></li>
                 <li><a href="eliminarU.php" target="_blank">Eliminar Usuarios</a></li>
-                <li><a href="" target="_blank">Buscar Usuario</a></li>
+                <li><a href="listar.php" target="_blank">Listar Usuarios</a></li>
                 <li><a href="" target="_blank">Cambiar Contraseña</a></li>
             </ul>
     </nav>
@@ -45,6 +45,7 @@
     <th>Dirección</th>
     <th>Correo</th>
     <th>Fecha Nacimiento</th>
+    <th>Modificar</th>
     </tr>
     <?php
 
@@ -61,6 +62,7 @@
         echo " <td>" . $row['usu_direccion'] . "</td>";
         echo " <td>" . $row['usu_correo'] . "</td>";
         echo " <td>" . $row['usu_fecha_nacimiento'] . "</td>";
+        echo " <td> <a href='modificar.php?codigo=" . $row['usu_codigo'] . "'>Modificar</a> </td>";
         echo "</tr>";
         }
     } else {

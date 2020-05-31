@@ -161,7 +161,11 @@ h2{
     color: black;
     text-align: center;
 }
-
+.mensaje{
+    text-align: justify;
+    font-size: 10px;
+    
+}
 footer{
     width: 100%;
     float: left;

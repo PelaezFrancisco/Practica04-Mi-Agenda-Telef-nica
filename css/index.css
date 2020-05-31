@@ -197,13 +197,6 @@ top: -120px;
 left: -65px;
 font-size: 25px;
 }
-#informacion{
-position: relative;
-margin-right: auto;
-float: right;
-margin-top: unset;
-top: -260px;
-}
 #imag{
 text-align: center;
 }
@@ -247,21 +240,11 @@ font-family: "Mystery Quest", cursive;
   color: black; 
   cursor: grabbing;
   text-align: center; 
-  border-radius:0%;
 width: 100px;
 height: 25px; 
 }
-
-fieldset{
-margin-top: 10px;
-width: 50%;
-border: black solid 3px;
-text-align: center;
-margin-left: 25%;
-}
-textarea{
-color: black;
-width: 40% ;
+#informacion{
+  text-align: center;
 }
 footer{
 width: 100%;

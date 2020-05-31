@@ -106,12 +106,17 @@ td, th {
     color: black;
     border: rgb(185, 66, 72) solid 2px;
 }
+input{
+    color: black;
+    width: 200px;
+    height: 20px;
+}
 label{
     color: black;
     text-align: center;
+    font-size: x-large;
 }
 #eliminar{
     color: black;
-    width: 150px;
+    width: 100px;
 }
-

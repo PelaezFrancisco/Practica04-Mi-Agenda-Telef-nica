@@ -3,9 +3,9 @@
 <head>
 
     <meta charset="UTF-8">
-    <title>Listar Usuarios</title>
+    <title>Eliminar Usuarios</title>
     <meta name="keywords" content="Mi Agenda Telefonica" />
-    <link rel="stylesheet" type="text/css" href="../../../css/listar.css">
+    <link rel="stylesheet" type="text/css" href="../../../css/eliminar.css">
 </head>
 <body>
     <header >
@@ -30,12 +30,23 @@
     <nav>
             <ul class="menu_h">
                 <li><a href="agregar.php" target="_blank">Agregar Usuarios</a></li>
-                <li><a href="modificarU.php" target="_blank">Modificar Usuarios</a></li>
+                <li><a href="" target="_blank">Modificar Usuarios</a></li>
+                <li><a href="listar.php" target="_blank">Listar Usuarios</a></li>
                 <li><a href="eliminarU.php" target="_blank">Eliminar Usuarios</a></li>
-                <li><a href="" target="_blank">Buscar Usuario</a></li>
                 <li><a href="" target="_blank">Cambiar Contraseña</a></li>
             </ul>
     </nav>
+
+    <form method="POST" action="../../controladores/usuario/eliminar.php" >
+    <br>
+    <hr>
+    <br>
+        <label>Ingrese la cedula:  </label> &nbsp; &nbsp; 
+        <input type="text" id="cedula" name="cedula" value=""> <br>
+        <br>
+        <input type="submit" id="eliminar" name="eliminar" value="Eliminar" />
+        <br><br>
+    </form>
 
     <table style="width:100%">
     <tr>

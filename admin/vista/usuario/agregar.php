@@ -4,15 +4,15 @@
     <title>Crear Usuario</title>
     <meta charset="utf-8"/>
     <meta name="keywords" content="Mi Agenda Telefonica" />
-    <link rel="stylesheet" type="text/css" href="../../css/crearU.css">
-    <script src="../../javascript/formulario.js" type="text/javascript" ></script>
+    <link rel="stylesheet" type="text/css" href="../../../css/crearU.css">
+    <script src="../../../javascript/formulario.js" type="text/javascript" ></script>
 </head>
 
 <body>
     <header >
         <div id="encabezado">  
             <div id="logo1">
-                <img src="../../imagenes/logoF.jpg"  width="250" height="150" alt="Imagen de Portada" >
+                <img src="../../../imagenes/logoF.jpg"  width="250" height="150" alt="Imagen de Portada" >
             </div>
             <div id="buscar">
                 <form method="get" action="https://www.google.com/search">
@@ -22,8 +22,8 @@
                 </form> 	
             </div>  
             <div id="info">
-                <a href="tel:+5930998801982"><img src="../../imagenes/contacto.png"  width="50" height="50" alt="Correo electronico" ></a>
-                <a href="mailto:dtixi@est.ups.edu.ec"><img src="../../imagenes/sobre.jpg"  width="50" height="50" alt="Contactos Telefonico" ></a>
+                <a href="tel:+5930998801982"><img src="../../../imagenes/contacto.png"  width="50" height="50" alt="Correo electronico" ></a>
+                <a href="mailto:dtixi@est.ups.edu.ec"><img src="../../../imagenes/sobre.jpg"  width="50" height="50" alt="Contactos Telefonico" ></a>
                 <button><a href="../../index.html" >Iniciar Sesion</a></button>
             </div>
         </div>  
@@ -31,7 +31,7 @@
     
     <section class="secciones">
         <hr><hr>
-        <form id="formulario01" method="POST" action="../controladores/crear_usuario.php" >
+        <form id="formulario01" method="POST" action="../../../public/controladores/crear_usuario.php" >
         <h2> Registrarse </h2>
         <br><br>
         <label for="cedula">Cedula: </label><br>
@@ -71,13 +71,13 @@
     <hr><hr>
     <div class="footer1">
         <div id="caja3">
-            <a href="https://www.wizardingworld.com/"><img src="../../imagenes/face.jpg"  width="50" height="50" alt="Imagen de Portada" ></a>
+            <a href="https://www.wizardingworld.com/"><img src="../../../imagenes/face.jpg"  width="50" height="50" alt="Imagen de Portada" ></a>
         </div>
         <div id="caja4">        
-            <a href="https://www.instagram.com/harrypotterfilm/"><img src="../../imagenes/insta.jpg"  width="50" height="50" alt="Imagen de Portada" ></a>
+            <a href="https://www.instagram.com/harrypotterfilm/"><img src="../../../imagenes/insta.jpg"  width="50" height="50" alt="Imagen de Portada" ></a>
         </div>
         <div class="footer2">
-            <img src="../../imagenes/logoF.jpg"  width="190" height="100" alt="Imagen de Portada">
+            <img src="../../../imagenes/logoF.jpg"  width="190" height="100" alt="Imagen de Portada">
         </div>
     </div>
 
