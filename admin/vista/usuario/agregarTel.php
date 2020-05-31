@@ -63,7 +63,7 @@
         echo " <td>" . $row['usu_direccion'] . "</td>";
         echo " <td>" . $row['usu_correo'] . "</td>";
         echo " <td>" . $row['usu_fecha_nacimiento'] . "</td>";
-        echo " <td> <a href='agregarT.php?codigo=" . $row['usu_codigo'] . "'>Add Telefono</a> </td>";echo "</tr>";
+        echo " <td> <a href='agregarT.php?codigo= ". $row['usu_codigo'] . "'>Add Telefono</a> </td>";echo "</tr>";
  
         echo "</tr>";
         
