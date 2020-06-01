@@ -1,11 +1,11 @@
 # Practica04-Mi-Agenda-Telef-nica
 Praactica 4 de Hipermedial
 a. El diagrama E-R de la solución propuesta.
-
+![](imagenes/1.png)
 b. Nombre de la base de dato
 
 Base de datos: agendatelefonica
-
+![](imagenes/2.png)
 c. Sentencias SQL de la estructura de la base de datos
 
 CREATE TABLE usuarios(
@@ -33,14 +33,16 @@ REFERENCES personas(usu_codigo)
 );
 
 d. La evidencia del correcto diseño de las páginas HTML usando CSS.
-
+![](imagenes/3.png)
+![](imagenes/4.png)
+![](imagenes/5.png)
 Formato aprobado con Res. C.S. N° 076-04-2016-04-20 Página 3 de 5
 VICERRECTORADO DOCENTE Código: GUIA-PRL-001
 CONSEJO ACADÉMICO Aprobación: 2016/04/06
 Formato: Guía de Práctica de Laboratorio / Talleres / Centros de Simulación
 
 e. La evidencia del correcto funcionamiento de cada uno de los puntos requeridos
-
+![](imagenes/6.png)
 f. Github
 
 Github:https://github.com/PelaezFrancisco/Practica04-Mi-Agenda-Telef-nica
