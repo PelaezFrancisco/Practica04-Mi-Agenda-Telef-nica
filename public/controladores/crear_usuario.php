@@ -10,6 +10,7 @@
 
     //incluir conexión a la base de datos
     include '../../config/conexionBD.php';
+    //include 'http://localhost/PROYECTS/P4_JPelaez/Practica04-Mi-Agenda-Telef-nica/config/conexionBD.php';
     $cedula = isset($_POST["cedula"]) ? trim($_POST["cedula"]) : null;
     $nombres = isset($_POST["nombres"]) ? mb_strtoupper(trim($_POST["nombres"]), 'UTF-8') : null;
     $apellidos = isset($_POST["apellidos"]) ? mb_strtoupper(trim($_POST["apellidos"]), 'UTF-8') : null;
@@ -19,7 +20,7 @@
     $contrasena = isset($_POST["contrasena"]) ? trim($_POST["contrasena"]) : null;
 
     //Ingresar los campos la base de datos 
-    $sql = "INSERT INTO usuarios VALUES (0, '$cedula', '$nombres', '$apellidos', '$direccion','$correo', MD5('$contrasena'),'$fechaNacimiento',null, 'N')";
+    $sql = "INSERT INTO usuarios VALUES (0, '$cedula', '$nombres', '$apellidos', '$direccion','$correo', MD5('$contrasena'),'$fechaNacimiento',null, 'N', null)";
     if ($conn->query($sql) === TRUE) {
         header("location:../../admin/vista/usuario/indexA.html");
     } else {

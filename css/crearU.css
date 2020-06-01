@@ -1,41 +1,82 @@
 *{
     padding: 0px;
     margin: 0px;
-    color: white;
-}
-body{
+    
+  }
+  body{
     padding-left: 4px;
     padding-right: 4px;
     margin-top: 4px;
-    text-align: center;
-}
-header{
-  margin-bottom: 15px;
-  margin-top: 15px;		
-  margin-left: 15px;
-  margin-right: 15px;
-}
-#logo1{
-position: relative;	
-float: left;
-}
-#buscar {
-    margin: 0;
-    padding: 10px;
-    float: left;
-    width: auto;
-    font-size: 100%;
-    margin-top: 40px;
-}
-#buscar {
-    padding: 2px;
-    float: left;
-    margin-left: 55px;
-    position: absolute;
+    background-color: #1862A3;
+  }
+  header{
+    height: 150px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;		
+    background-color: #F0B454;
+  }
+  .logo1{
+    position: relative;
     width: 30%;
-    left: 35%;
-    text-align: center;
-}
+    height: 30%;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+    }
+    .buscar{
+        position: relative;
+        top: -80px;
+        left: 38%;
+        width: 400px;
+        background-color: #A37429;
+        font-size: 100%;
+      }
+      #buscar2{
+        position: relative;
+        top: 15px;
+        left: 50px;
+        height: 50px;
+        width: 400px;
+        
+      }
+      .info{
+        position: relative;
+        width: 280px;
+        height: 100px;
+        background-color: #A37429;
+        top: -160px;
+        left: 78%;
+        }
+        #contacto{
+          width: 50;
+          height: 50;
+          position: relative;
+          top: 25px;
+          left: 20px;
+        }
+        #mail1{
+          width: 80;
+          height: 80;
+          position: relative;
+          top: 25px;
+          left: 20px;
+        }
+        .boton{
+          position: relative;
+          left: 40px;
+          width: 100px;
+          height: 40px;
+          background-color: #FFC973;
+        }
+        .art1{
+          background-color: #F0B454;
+          height: 450px;
+          margin-left: 10px;
+          margin-right: 10px;
+          margin-bottom: 20px;
+        }
 #info{
     margin-top: 30px;
     float: right;	
@@ -54,10 +95,10 @@ float: left;
     margin-top: 15px;
     margin-left: 30%;
     margin-right: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     color: black;
     text-align: center;
-    width: 50%;
+    width: 55%;
     border: black solid 2px;
 }
 label{
@@ -177,14 +218,12 @@ footer{
     margin-left: 15px;
     margin-bottom: 5px;
     width: 20%;
-    border: solid 3px;
     }
     .footer2{
     margin-top: 5px;
     margin-left: 25px;
     margin-bottom: 5px;
     width: 200px;
-    border: solid 3px;
     }
     .info1{
     float: left;
@@ -224,3 +263,127 @@ footer{
     margin-right: 5px;
     background-color: black;
 }
+.secc{
+    background-color: #F0B454;
+    height: 850px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.secc1{
+    position: relative;
+    top: 20px;
+    left: -30px;
+    height: 800px;
+    width: 800px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #A37429;
+    
+  }
+  .secc1 p{
+    margin: 10px;
+    padding-bottom: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  .secc1 h1{
+    margin-left: 10px;
+    color: black;
+    font-size: 50px;
+    text-align: center;
+  }
+  .secc1 form{
+      width: 600px;
+  }
+  .secc2{
+    background-color:  #F0B454;
+    height: 215px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+  #informacion{
+    text-align: center;
+  }
+  footer{
+  width: 100%;
+  float: left;
+  margin-bottom: 4px;
+  }
+  .footer1{
+  float: left;
+  margin-top: 5px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+  width: 20%;
+  }
+  .footer2{
+  margin-top: 5px;
+  margin-left: 25px;
+  margin-bottom: 5px;
+  width: 200px;
+  }
+  
+  
+  .info1 p{
+  font-size: 15px;
+  }
+  .info2 p{
+    font-size: 15px;
+    }
+  
+  #caja3{
+  float: left;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: black;
+  }
+  #caja4{
+  float: right;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: black;
+  }
+  .secc5{
+    position: relative;
+    top: -20px;
+    background-color: #F0B454;
+    height: 240px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .secc51{
+    background-color: #A37429;
+    position: relative;
+    left: 600px;
+    top: 15px;
+    height: 210px;
+    width: 800px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+  }
+  .secc51 .info1{
+    position: relative;
+    top: 5px;
+    left: -180px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 5px;
+    }
+    .secc51 .info2{
+      position: relative;
+      top: -190px;
+      left: -40px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      margin-left: 55px;
+      margin-right: 5px;
+    }
